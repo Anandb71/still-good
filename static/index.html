@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Still Good</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%23F5D76E'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip" href="#fridge-heading">Skip to the fridge</a>
+  <header class="top">
+    <p class="eyebrow">Tonight, from what is left</p>
+    <h1>Still Good</h1>
+    <p class="lede">Four steps <span id="for-name">for your friend</span> will actually cook. No shopping trip.</p>
+  </header>
+
+  <main>
+    <section class="panel" aria-labelledby="profile-heading">
+      <h2 id="profile-heading">The rules</h2>
+      <p class="hint">Set once. They stay in this browser.</p>
+
+      <div class="field">
+        <label for="friend-name">Who is cooking</label>
+        <input id="friend-name" name="friend-name" type="text" maxlength="40" autocomplete="off" value="your friend">
+      </div>
+
+      <fieldset>
+        <legend>Diet</legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="diet" value="vegan"><span>Vegan</span></label>
+          <label class="choice"><input type="radio" name="diet" value="vegetarian" checked><span>Vegetarian</span></label>
+          <label class="choice"><input type="radio" name="diet" value="eggetarian"><span>Eggetarian</span></label>
+          <label class="choice"><input type="radio" name="diet" value="everything"><span>Eats everything</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Allergies</legend>
+        <p class="hint">Hard stops. A dish with these never shows up.</p>
+        <div class="choices">
+          <label class="choice"><input type="checkbox" name="allergy" value="nuts"><span>Nuts</span></label>
+          <label class="choice"><input type="checkbox" name="allergy" value="dairy"><span>Dairy</span></label>
+          <label class="choice"><input type="checkbox" name="allergy" value="gluten"><span>Gluten</span></label>
+          <label class="choice"><input type="checkbox" name="allergy" value="egg"><span>Egg</span></label>
+          <label class="choice"><input type="checkbox" name="allergy" value="soy"><span>Soy</span></label>
+          <label class="choice"><input type="checkbox" name="allergy" value="shellfish"><span>Shellfish</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Won't eat</legend>
+        <div class="choices">
+          <label class="choice"><input type="checkbox" name="wont" value="cilantro"><span>Cilantro</span></label>
+          <label class="choice"><input type="checkbox" name="wont" value="mushroom"><span>Mushroom</span></label>
+          <label class="choice"><input type="checkbox" name="wont" value="onion"><span>Onion</span></label>
+          <label class="choice"><input type="checkbox" name="wont" value="spicy"><span>Spicy</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tonight</legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="minutes" value="15" checked><span>15 min</span></label>
+          <label class="choice"><input type="radio" name="minutes" value="30"><span>30 min</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skill</legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="skill" value="boil"><span>Boil water</span></label>
+          <label class="choice"><input type="radio" name="skill" value="follow" checked><span>Follow steps</span></label>
+          <label class="choice"><input type="radio" name="skill" value="improvise"><span>Improvise</span></label>
+        </div>
+      </fieldset>
+    </section>
+
+    <section class="panel" aria-labelledby="fridge-heading">
+      <h2 id="fridge-heading">Fridge and pantry</h2>
+      <p class="hint">Tap what is actually here. Star up to three things to use soon. A staple counts only if you tap it.</p>
+      <p id="star-status" class="hint" aria-live="polite">Starred 0 of 3.</p>
+      <div id="chip-board"></div>
+      <p id="board-error" class="form-error" hidden></p>
+      <button id="cook" type="button">What's still good?</button>
+    </section>
+
+    <section class="note-wrap" aria-labelledby="note-heading">
+      <h2 id="note-heading" class="sr-only">Tonight's note</h2>
+      <article id="note" class="sticky" data-note-status="empty" aria-live="polite">
+        <div class="tape" aria-hidden="true"></div>
+        <p id="origin-badge" class="origin" hidden></p>
+        <p id="fallback-line" class="fallback-line" hidden></p>
+        <h3 id="note-title">Your note will land here.</h3>
+        <p id="note-why" class="why">Pick what you have, then ask what is still good.</p>
+        <ol id="note-steps"></ol>
+        <p id="model-line" class="meta" hidden></p>
+        <p id="used-label" class="used-label" hidden>Uses</p>
+        <ul id="used-ingredients" class="used"></ul>
+        <p id="remaining-line" class="hint remaining" hidden></p>
+        <button id="another" type="button" hidden>Another</button>
+      </article>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>The meal is chosen in code. The note is written on this machine.</p>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

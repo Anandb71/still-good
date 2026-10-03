@@ -1,0 +1,573 @@
+[
+  {
+    "id": "spinach-yogurt-rice",
+    "title": "Spinach yogurt rice",
+    "why": "Spinach wilts fast, and yogurt makes the rice a full dinner.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegetarian",
+    "ingredients": ["spinach", "yogurt", "rice", "garlic", "oil"],
+    "steps": [
+      "Rinse the spinach and chop it.",
+      "Warm the oil, soften the garlic, then add the spinach and a pinch of salt until it wilts.",
+      "Take the pan off the heat and stir in the yogurt.",
+      "Spoon it over the warm rice and eat."
+    ]
+  },
+  {
+    "id": "cucumber-yogurt",
+    "title": "Cucumber yogurt",
+    "why": "Cucumber and yogurt need no heat.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegetarian",
+    "ingredients": ["cucumber", "yogurt", "lemon"],
+    "steps": [
+      "Chop the cucumber.",
+      "Stir it into the yogurt with a pinch of salt.",
+      "Squeeze the lemon over the top.",
+      "Eat it cold."
+    ]
+  },
+  {
+    "id": "yogurt-rice",
+    "title": "Yogurt rice",
+    "why": "Warm rice and cold yogurt is enough.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegetarian",
+    "ingredients": ["rice", "yogurt"],
+    "steps": [
+      "Warm the rice if it is cold.",
+      "Stir the yogurt through the rice with a pinch of salt.",
+      "Loosen it with a spoon of water if it looks stiff.",
+      "Eat it cool or just warm."
+    ]
+  },
+  {
+    "id": "tomato-cucumber-salad",
+    "title": "Tomato cucumber salad",
+    "why": "Tomato and cucumber, with lemon and oil, is a plate on its own.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegan",
+    "ingredients": ["tomato", "cucumber", "lemon", "oil"],
+    "steps": [
+      "Chop the tomato and the cucumber.",
+      "Toss them with the oil and a pinch of salt.",
+      "Squeeze the lemon over them.",
+      "Eat it right away."
+    ]
+  },
+  {
+    "id": "lemon-rice",
+    "title": "Lemon rice",
+    "why": "Lemon and ginger wake up rice that is already cooked.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["rice", "lemon", "oil", "ginger"],
+    "steps": [
+      "Warm the oil and the ginger in a pan.",
+      "Add the rice and a pinch of salt and stir until hot.",
+      "Take it off the heat and stir in the lemon.",
+      "Eat it while it is warm."
+    ]
+  },
+  {
+    "id": "tomato-rice",
+    "title": "Tomato rice",
+    "why": "Onion, garlic, and tomato turn rice into a meal.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["rice", "tomato", "garlic", "oil", "onion"],
+    "steps": [
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Stir in the rice until it is hot.",
+      "Eat it from the pan."
+    ]
+  },
+  {
+    "id": "garlic-spinach",
+    "title": "Garlic spinach",
+    "why": "Spinach and garlic cook in one pan.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["spinach", "garlic", "oil"],
+    "steps": [
+      "Rinse the spinach.",
+      "Warm the oil and soften the garlic.",
+      "Add the spinach and a pinch of salt and cook until it wilts.",
+      "Eat it straight from the pan."
+    ]
+  },
+  {
+    "id": "paneer-spinach",
+    "title": "Paneer spinach",
+    "why": "Paneer and spinach are done as soon as the tomato softens.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegetarian",
+    "ingredients": ["paneer", "spinach", "tomato", "garlic", "oil"],
+    "steps": [
+      "Cube the paneer.",
+      "Warm the oil, soften the garlic, and add the tomato with a pinch of salt.",
+      "Add the spinach and cook until it wilts.",
+      "Stir in the paneer until it is hot, then eat."
+    ]
+  },
+  {
+    "id": "paneer-tomato",
+    "title": "Paneer tomato",
+    "why": "Paneer only needs a soft tomato and onion.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegetarian",
+    "ingredients": ["paneer", "tomato", "onion", "oil", "ginger"],
+    "steps": [
+      "Cube the paneer.",
+      "Warm the oil and soften the onion and the ginger.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Stir in the paneer until hot, then eat."
+    ]
+  },
+  {
+    "id": "potato-tomato",
+    "title": "Potato tomato",
+    "why": "Potato and tomato, with onion and garlic, is a pot dinner.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["potato", "tomato", "onion", "garlic", "oil"],
+    "steps": [
+      "Cut the potato into small pieces and boil it in water with a pinch of salt until tender.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Stir the potato through and eat."
+    ]
+  },
+  {
+    "id": "spinach-lentils",
+    "title": "Spinach lentils",
+    "why": "Lentils and spinach share one pot, then meet the rice.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["spinach", "lentils", "garlic", "onion", "oil", "rice"],
+    "steps": [
+      "Rinse the lentils and simmer them in water with a pinch of salt until soft.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the spinach and cook until it wilts, then stir it into the lentils.",
+      "Eat it with the rice."
+    ]
+  },
+  {
+    "id": "chickpea-salad",
+    "title": "Chickpea salad",
+    "why": "Chickpeas, tomato, cucumber, onion, and lemon. No stove.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegan",
+    "ingredients": ["chickpeas", "tomato", "cucumber", "lemon", "onion", "oil"],
+    "steps": [
+      "Rinse the chickpeas.",
+      "Chop the tomato, the cucumber, and the onion.",
+      "Toss everything with the oil, the lemon, and a pinch of salt.",
+      "Eat it cold."
+    ]
+  },
+  {
+    "id": "cauliflower-ginger",
+    "title": "Cauliflower with ginger",
+    "why": "Small cauliflower pieces cook quickly with garlic and ginger.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["cauliflower", "garlic", "ginger", "oil"],
+    "steps": [
+      "Cut the cauliflower into small pieces.",
+      "Warm the oil and soften the garlic and the ginger.",
+      "Add the cauliflower and a pinch of salt and cook until tender.",
+      "Eat it hot."
+    ]
+  },
+  {
+    "id": "carrot-cabbage",
+    "title": "Carrot and cabbage",
+    "why": "Thin carrot and cabbage soften in a few minutes with garlic.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["carrot", "cabbage", "garlic", "oil"],
+    "steps": [
+      "Slice the carrot and the cabbage thin.",
+      "Warm the oil and soften the garlic.",
+      "Add the carrot and the cabbage with a pinch of salt and cook until just soft.",
+      "Eat it hot."
+    ]
+  },
+  {
+    "id": "potato-capsicum",
+    "title": "Potato and capsicum",
+    "why": "Potato and capsicum with onion and garlic.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["potato", "capsicum", "onion", "garlic", "oil"],
+    "steps": [
+      "Cut the potato small and boil it in water with a pinch of salt until tender.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the capsicum and a pinch of salt and cook until soft.",
+      "Stir the potato through and eat."
+    ]
+  },
+  {
+    "id": "peanut-lemon-rice",
+    "title": "Peanut lemon rice",
+    "why": "Peanuts and lemon make plain rice taste like you meant it.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["rice", "peanuts", "lemon", "oil"],
+    "steps": [
+      "Warm the oil and stir the peanuts for about a minute.",
+      "Add the rice and a pinch of salt and heat it through.",
+      "Take it off the heat and stir in the lemon.",
+      "Eat it warm."
+    ]
+  },
+  {
+    "id": "egg-rice",
+    "title": "Egg rice",
+    "why": "Eggs, onion, and garlic scrambled through rice.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "eggetarian",
+    "ingredients": ["eggs", "rice", "oil", "onion", "garlic"],
+    "steps": [
+      "Beat the eggs with a pinch of salt.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Cook the eggs in the pan, then stir in the rice until hot.",
+      "Eat it from the pan."
+    ]
+  },
+  {
+    "id": "tomato-egg",
+    "title": "Tomato and egg",
+    "why": "Eggs and tomato, with onion, set in one pan.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "eggetarian",
+    "ingredients": ["eggs", "tomato", "onion", "oil"],
+    "steps": [
+      "Beat the eggs with a pinch of salt.",
+      "Chop the tomato and the onion and stir them into the eggs.",
+      "Warm the oil and cook the eggs until just set.",
+      "Fold the eggs and eat."
+    ]
+  },
+  {
+    "id": "egg-toast",
+    "title": "Egg toast",
+    "why": "Eggs on toast with tomato and butter.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "eggetarian",
+    "ingredients": ["eggs", "bread", "butter", "tomato"],
+    "steps": [
+      "Beat the eggs with a pinch of salt.",
+      "Warm the butter and cook the eggs in it.",
+      "Toast the bread.",
+      "Put the eggs and the sliced tomato on the toast and eat."
+    ]
+  },
+  {
+    "id": "chicken-rice",
+    "title": "Chicken rice",
+    "why": "Small pieces of chicken with onion, garlic, and rice.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "omnivore",
+    "ingredients": ["chicken", "rice", "garlic", "onion", "oil"],
+    "steps": [
+      "Cut the chicken into small pieces.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Cook the chicken with a pinch of salt and a splash of water until the center is no longer pink.",
+      "Stir in the warm rice and eat."
+    ]
+  },
+  {
+    "id": "shrimp-lemon",
+    "title": "Shrimp with lemon",
+    "why": "Shrimp, garlic, and lemon over rice.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "omnivore",
+    "ingredients": ["shrimp", "garlic", "oil", "lemon", "rice"],
+    "steps": [
+      "Warm the oil and soften the garlic.",
+      "Add the shrimp and a pinch of salt and cook until they turn pink.",
+      "Squeeze the lemon over them.",
+      "Eat with the warm rice."
+    ]
+  },
+  {
+    "id": "fish-tomato",
+    "title": "Fish and tomato",
+    "why": "Fish cooks in tomato, garlic, and lemon.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "omnivore",
+    "ingredients": ["fish", "tomato", "garlic", "oil", "lemon"],
+    "steps": [
+      "Warm the oil and soften the garlic.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Lay the fish in the pan and cook until it flakes.",
+      "Squeeze the lemon over it and eat."
+    ]
+  },
+  {
+    "id": "tofu-spinach",
+    "title": "Tofu spinach",
+    "why": "Tofu and spinach need only garlic and oil.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["tofu", "spinach", "garlic", "oil"],
+    "steps": [
+      "Cut the tofu into cubes.",
+      "Warm the oil and soften the garlic.",
+      "Add the spinach and a pinch of salt and cook until it wilts.",
+      "Stir in the tofu until hot and eat."
+    ]
+  },
+  {
+    "id": "mushroom-onion",
+    "title": "Mushroom and onion",
+    "why": "Mushroom and onion with garlic.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["mushroom", "garlic", "oil", "onion"],
+    "steps": [
+      "Slice the mushrooms.",
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the mushrooms and a pinch of salt and cook until soft.",
+      "Eat it hot."
+    ]
+  },
+  {
+    "id": "cilantro-rice",
+    "title": "Cilantro rice",
+    "why": "Cilantro and lemon stirred through rice.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["rice", "cilantro", "lemon", "oil"],
+    "steps": [
+      "Chop the cilantro.",
+      "Warm the oil, then stir in the rice and a pinch of salt.",
+      "Take it off the heat and stir in the cilantro and the lemon.",
+      "Eat it warm."
+    ]
+  },
+  {
+    "id": "spicy-lentils",
+    "title": "Spicy lentils",
+    "why": "Lentils with tomato, onion, garlic, and green chili, eaten with rice.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "spicy": true,
+    "ingredients": ["lentils", "tomato", "garlic", "onion", "green-chili", "oil", "rice"],
+    "steps": [
+      "Rinse the lentils and simmer them in water with a pinch of salt until soft.",
+      "Warm the oil and soften the onion, the garlic, and the green chili.",
+      "Add the tomato, cook until soft, and stir it into the lentils.",
+      "Eat it with the rice."
+    ]
+  },
+  {
+    "id": "tomato-pasta",
+    "title": "Tomato pasta",
+    "why": "Pasta and tomato with garlic.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["pasta", "tomato", "garlic", "oil"],
+    "steps": [
+      "Boil the pasta in water with a pinch of salt until tender, then drain it.",
+      "Warm the oil and soften the garlic.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Toss the pasta through and eat."
+    ]
+  },
+  {
+    "id": "cheese-toast",
+    "title": "Cheese toast",
+    "why": "Cheese and tomato on toast with butter.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegetarian",
+    "ingredients": ["bread", "cheese", "tomato", "butter"],
+    "steps": [
+      "Slice the tomato.",
+      "Toast the bread and spread the butter.",
+      "Add the cheese and the tomato.",
+      "Heat until the cheese softens, then eat."
+    ]
+  },
+  {
+    "id": "garlic-potato",
+    "title": "Garlic potato",
+    "why": "Potato crushed with garlic and oil.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["potato", "garlic", "oil"],
+    "steps": [
+      "Cut the potato small and boil it in water with a pinch of salt until tender.",
+      "Drain it and crush it with a pinch of salt.",
+      "Warm the oil and soften the garlic.",
+      "Stir the garlic and the oil through the potato and eat."
+    ]
+  },
+  {
+    "id": "peas-rice",
+    "title": "Peas and rice",
+    "why": "Peas and rice with onion and garlic.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["rice", "peas", "oil", "onion", "garlic"],
+    "steps": [
+      "Warm the oil and soften the onion and the garlic.",
+      "Add the rice, the peas, a pinch of salt, and enough water to cover.",
+      "Simmer until the rice is tender.",
+      "Eat it hot."
+    ]
+  },
+  {
+    "id": "poha-potato",
+    "title": "Poha with potato",
+    "why": "Poha with potato, onion, and lemon.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["poha", "potato", "onion", "lemon", "oil"],
+    "steps": [
+      "Dice the potato and the onion small.",
+      "Warm the oil, soften the onion, and cook the potato with a pinch of salt and a splash of water until tender.",
+      "Rinse the poha, stir it in, and heat it through.",
+      "Squeeze the lemon over it and eat."
+    ]
+  },
+  {
+    "id": "chickpea-tomato",
+    "title": "Chickpeas and tomato",
+    "why": "Chickpeas simmered with tomato, onion, garlic, and ginger.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["chickpeas", "tomato", "onion", "garlic", "ginger", "oil"],
+    "steps": [
+      "Warm the oil and soften the onion, the garlic, and the ginger.",
+      "Add the tomato and a pinch of salt and cook until soft.",
+      "Stir in the chickpeas and a splash of water and simmer until thick.",
+      "Eat it hot."
+    ]
+  },
+  {
+    "id": "green-beans-lemon",
+    "title": "Green beans with lemon",
+    "why": "Green beans with garlic, oil, and lemon.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["beans", "garlic", "oil", "lemon"],
+    "steps": [
+      "Trim the green beans.",
+      "Warm the oil and soften the garlic.",
+      "Add the green beans, a pinch of salt, and a splash of water and cook until just tender.",
+      "Squeeze the lemon over them and eat."
+    ]
+  },
+  {
+    "id": "capsicum-pasta",
+    "title": "Capsicum pasta",
+    "why": "Pasta with capsicum, carrot, tomato, and garlic.",
+    "minutes": 30,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["pasta", "capsicum", "carrot", "garlic", "oil", "tomato"],
+    "steps": [
+      "Boil the pasta in water with a pinch of salt until tender, then drain it.",
+      "Warm the oil and soften the garlic.",
+      "Add the capsicum, the carrot, and the tomato with a pinch of salt and cook until soft.",
+      "Toss the pasta through and eat."
+    ]
+  },
+  {
+    "id": "spinach-soy",
+    "title": "Spinach with soy sauce",
+    "why": "Spinach wilted with garlic and soy sauce.",
+    "minutes": 15,
+    "skill": "follow",
+    "diet": "vegan",
+    "ingredients": ["spinach", "garlic", "soy-sauce", "oil"],
+    "steps": [
+      "Rinse the spinach.",
+      "Warm the oil and soften the garlic.",
+      "Add the spinach and cook until it wilts.",
+      "Stir in the soy sauce and eat."
+    ]
+  },
+  {
+    "id": "capsicum-skillet",
+    "title": "Capsicum skillet",
+    "why": "Capsicum, tomato, onion, garlic, and ginger, cooked until you like them.",
+    "minutes": 30,
+    "skill": "improvise",
+    "diet": "vegan",
+    "ingredients": ["tomato", "onion", "garlic", "ginger", "oil", "capsicum"],
+    "steps": [
+      "Chop the onion, the garlic, the ginger, the capsicum, and the tomato.",
+      "Warm the oil and cook the onion, the garlic, and the ginger until they smell sweet.",
+      "Add the capsicum and the tomato with a pinch of salt and cook until the texture suits you.",
+      "Taste, adjust the salt, and eat."
+    ]
+  },
+  {
+    "id": "milk-rice",
+    "title": "Milk rice",
+    "why": "Milk and rice, warm, when you want a bowl.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegetarian",
+    "ingredients": ["rice", "milk"],
+    "steps": [
+      "Warm the milk with a splash of water.",
+      "Stir in the rice and a pinch of salt.",
+      "Heat until the rice is soft.",
+      "Eat it warm."
+    ]
+  },
+  {
+    "id": "banana-yogurt",
+    "title": "Banana yogurt",
+    "why": "Banana stirred into yogurt. No stove.",
+    "minutes": 15,
+    "skill": "boil",
+    "diet": "vegetarian",
+    "ingredients": ["banana", "yogurt"],
+    "steps": [
+      "Slice the banana.",
+      "Stir it into the yogurt.",
+      "Add a spoon of water if the yogurt is very thick.",
+      "Eat it cold."
+    ]
+  }
+]
